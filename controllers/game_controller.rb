@@ -1,5 +1,3 @@
-#  This is just to start you off, it's entirely up to you how to organize your code.
-# require the appropriate files from the model and view folders.
 require_relative '../models/question.rb'
 require_relative '../views/game_viewable.rb'
 
@@ -150,7 +148,4 @@ class GameController
     end
     puts "Thank you for playing!"
   end
-
-  # write other methods in the controller to define (non-rails) controller actions
-  # call these methods within your controller 'run' method.
 end

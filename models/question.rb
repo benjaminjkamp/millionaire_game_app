@@ -1,5 +1,3 @@
-#  This is just to start you off, it's entirely up to you how to organize your code.
-
 class Question
   attr_reader :question, :answer1, :answer2, :answer3, :answer4, :correct_answer
   def initialize(options)
